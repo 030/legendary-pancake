@@ -1,0 +1,18 @@
+---
+rules:
+  - apiGroups:
+      - apiextensions.k8s.io
+    resourceNames:
+      - elasticsearches.logging.openshift.io
+    resources:
+      - customresourcedefinitions
+    verbs:
+      - get
+  - apiGroups:
+      - apiextensions.k8s.io
+    resourceNames:
+      - kibanas.logging.openshift.io
+    resources:
+      - customresourcedefinitions
+    verbs:
+      - get

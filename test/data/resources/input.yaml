@@ -1,0 +1,14 @@
+---
+rules:
+  - apiGroups:
+      - logging.openshift.io
+    resources:
+      - clusterloggings
+    verbs:
+      - '*'
+  - apiGroups:
+      - logging.openshift.io
+    resources:
+      - clusterlogforwarders
+    verbs:
+      - '*'
